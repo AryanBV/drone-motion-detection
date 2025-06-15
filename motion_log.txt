@@ -1,0 +1,97 @@
+
+=== Motion Detection Started at 2025-06-15 14:31:02.373000 ===
+=== Motion Detection Ended at 2025-06-15 14:31:03.233552 ===
+
+=== Motion Detection Started at 2025-06-15 14:32:59.027703 ===
+2025-06-15 14:33:05 - Motion detected: 5 objects, total area: 55858.0
+2025-06-15 14:33:06 - Motion detected: 14 objects, total area: 115599.5
+2025-06-15 14:33:08 - Motion detected: 13 objects, total area: 48130.5
+2025-06-15 14:33:10 - Motion detected: 4 objects, total area: 2403.0
+2025-06-15 14:33:12 - Motion detected: 10 objects, total area: 28088.5
+2025-06-15 14:33:14 - Motion detected: 7 objects, total area: 12095.0
+2025-06-15 14:33:16 - Motion detected: 5 objects, total area: 18971.5
+2025-06-15 14:33:18 - Motion detected: 2 objects, total area: 2760.5
+2025-06-15 14:33:21 - Motion detected: 5 objects, total area: 71306.5
+2025-06-15 14:33:22 - Motion detected: 1 objects, total area: 1040.0
+2025-06-15 14:33:24 - Motion detected: 5 objects, total area: 17692.0
+2025-06-15 14:33:27 - Motion detected: 4 objects, total area: 17665.0
+2025-06-15 14:33:29 - Motion detected: 6 objects, total area: 23754.0
+2025-06-15 14:33:31 - Motion detected: 3 objects, total area: 11605.0
+2025-06-15 14:33:34 - Motion detected: 5 objects, total area: 5043.0
+2025-06-15 14:33:36 - Motion detected: 3 objects, total area: 14864.5
+2025-06-15 14:33:41 - Motion detected: 4 objects, total area: 4902.0
+2025-06-15 14:33:46 - Motion detected: 3 objects, total area: 1813.0
+2025-06-15 14:33:56 - Motion detected: 2 objects, total area: 41664.5
+2025-06-15 14:33:59 - Motion detected: 1 objects, total area: 599.5
+2025-06-15 14:34:01 - Motion detected: 5 objects, total area: 23131.5
+2025-06-15 14:34:04 - Motion detected: 3 objects, total area: 7925.0
+2025-06-15 14:34:06 - Motion detected: 4 objects, total area: 15187.5
+2025-06-15 14:34:08 - Motion detected: 4 objects, total area: 26848.0
+2025-06-15 14:34:10 - Motion detected: 4 objects, total area: 7383.5
+2025-06-15 14:34:12 - Motion detected: 4 objects, total area: 19838.0
+2025-06-15 14:34:14 - Motion detected: 4 objects, total area: 64307.5
+2025-06-15 14:34:18 - Motion detected: 4 objects, total area: 16526.0
+2025-06-15 14:34:22 - Motion detected: 3 objects, total area: 5336.5
+2025-06-15 14:34:24 - Motion detected: 9 objects, total area: 32379.5
+2025-06-15 14:34:26 - Motion detected: 2 objects, total area: 1483.5
+2025-06-15 14:34:28 - Motion detected: 1 objects, total area: 1460.5
+2025-06-15 14:34:30 - Motion detected: 2 objects, total area: 2026.0
+2025-06-15 14:34:32 - Motion detected: 1 objects, total area: 505.5
+2025-06-15 14:34:40 - Motion detected: 1 objects, total area: 1132.0
+2025-06-15 14:35:01 - Motion detected: 1 objects, total area: 806.0
+2025-06-15 14:35:15 - Motion detected: 2 objects, total area: 4188.5
+2025-06-15 14:35:23 - Motion detected: 1 objects, total area: 615.0
+2025-06-15 14:35:31 - Motion detected: 1 objects, total area: 980.5
+2025-06-15 14:35:35 - Motion detected: 1 objects, total area: 760.5
+2025-06-15 14:35:43 - Motion detected: 1 objects, total area: 1840.5
+2025-06-15 14:35:45 - Motion detected: 2 objects, total area: 6439.5
+2025-06-15 14:35:48 - Motion detected: 1 objects, total area: 504.0
+2025-06-15 14:35:53 - Motion detected: 1 objects, total area: 638.0
+2025-06-15 14:35:55 - Motion detected: 2 objects, total area: 3734.0
+2025-06-15 14:36:01 - Motion detected: 1 objects, total area: 1295.5
+2025-06-15 14:36:41 - Motion detected: 1 objects, total area: 670.5
+2025-06-15 14:36:43 - Motion detected: 1 objects, total area: 2253.5
+2025-06-15 14:36:48 - Motion detected: 1 objects, total area: 2571.5
+2025-06-15 14:36:50 - Motion detected: 1 objects, total area: 738.0
+2025-06-15 14:37:00 - Motion detected: 1 objects, total area: 3685.5
+2025-06-15 14:37:02 - Motion detected: 1 objects, total area: 632.0
+2025-06-15 14:37:04 - Motion detected: 1 objects, total area: 1372.0
+2025-06-15 14:37:07 - Motion detected: 1 objects, total area: 1127.0
+2025-06-15 14:37:10 - Motion detected: 1 objects, total area: 666.0
+2025-06-15 14:37:12 - Motion detected: 1 objects, total area: 29250.5
+=== Motion Detection Ended at 2025-06-15 14:37:13.873650 ===
+
+=== Enhanced Motion Detection Started at 2025-06-15 14:44:04.301199 ===
+2025-06-15 14:44:05 - VERIFIED Motion: 1 objects, total area: 3906.5, threshold: 50, avg_diff: 2.1
+2025-06-15 14:44:09 - VERIFIED Motion: 2 objects, total area: 31273.5, threshold: 50, avg_diff: 11.8
+2025-06-15 14:44:18 - VERIFIED Motion: 2 objects, total area: 16223.0, threshold: 50, avg_diff: 42.5
+2025-06-15 14:44:22 - VERIFIED Motion: 1 objects, total area: 7390.0, threshold: 50, avg_diff: 17.6
+2025-06-15 14:44:28 - VERIFIED Motion: 2 objects, total area: 62669.5, threshold: 60, avg_diff: 12.3
+2025-06-15 14:44:33 - VERIFIED Motion: 1 objects, total area: 16741.0, threshold: 60, avg_diff: 31.6
+2025-06-15 14:45:08 - VERIFIED Motion: 2 objects, total area: 36684.0, threshold: 50, avg_diff: 8.4
+2025-06-15 14:45:12 - VERIFIED Motion: 0 objects, total area: 0, threshold: 50, avg_diff: 1.9
+2025-06-15 14:45:25 - VERIFIED Motion: 2 objects, total area: 23515.0, threshold: 50, avg_diff: 3.8
+2025-06-15 14:45:29 - VERIFIED Motion: 2 objects, total area: 12260.5, threshold: 50, avg_diff: 3.1
+2025-06-15 14:45:34 - VERIFIED Motion: 0 objects, total area: 0, threshold: 50, avg_diff: 1.9
+2025-06-15 14:45:40 - VERIFIED Motion: 1 objects, total area: 5976.5, threshold: 60, avg_diff: 16.4
+=== Enhanced Motion Detection Ended at 2025-06-15 14:45:50.994261 ===
+Statistics: 589 frames, 12 verified detections
+
+=== Enhanced Motion Detection Started at 2025-06-15 21:02:16.051339 ===
+2025-06-15 21:02:29 - VERIFIED Motion: 2 objects, total area: 53631.5, threshold: 50, avg_diff: 21.8
+2025-06-15 21:02:34 - VERIFIED Motion: 4 objects, total area: 51045.5, threshold: 50, avg_diff: 29.1
+2025-06-15 21:02:38 - VERIFIED Motion: 0 objects, total area: 0, threshold: 60, avg_diff: 3.1
+2025-06-15 21:02:46 - VERIFIED Motion: 3 objects, total area: 12252.0, threshold: 50, avg_diff: 9.7
+2025-06-15 21:02:50 - VERIFIED Motion: 4 objects, total area: 38571.5, threshold: 50, avg_diff: 13.2
+2025-06-15 21:02:55 - VERIFIED Motion: 3 objects, total area: 28742.0, threshold: 50, avg_diff: 15.1
+2025-06-15 21:02:59 - VERIFIED Motion: 3 objects, total area: 32124.5, threshold: 50, avg_diff: 11.6
+2025-06-15 21:03:03 - VERIFIED Motion: 0 objects, total area: 0, threshold: 50, avg_diff: 6.2
+2025-06-15 21:03:08 - VERIFIED Motion: 1 objects, total area: 4816.0, threshold: 50, avg_diff: 7.0
+2025-06-15 21:03:13 - VERIFIED Motion: 0 objects, total area: 0, threshold: 50, avg_diff: 45.7
+2025-06-15 21:03:17 - VERIFIED Motion: 1 objects, total area: 10591.0, threshold: 50, avg_diff: 6.9
+2025-06-15 21:03:21 - VERIFIED Motion: 1 objects, total area: 3183.5, threshold: 50, avg_diff: 3.5
+2025-06-15 21:03:27 - VERIFIED Motion: 2 objects, total area: 49836.0, threshold: 50, avg_diff: 29.5
+2025-06-15 21:03:32 - VERIFIED Motion: 1 objects, total area: 21137.0, threshold: 50, avg_diff: 10.6
+2025-06-15 21:03:39 - VERIFIED Motion: 1 objects, total area: 11721.0, threshold: 50, avg_diff: 6.4
+=== Enhanced Motion Detection Ended at 2025-06-15 21:04:11.713833 ===
+Statistics: 847 frames, 15 verified detections
