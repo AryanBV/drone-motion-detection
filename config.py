@@ -1,36 +1,42 @@
 #!/usr/bin/env python3
 """
-Improved Configuration for ESP32-CAM Motion Detection
-Optimized to eliminate false positives while maintaining good sensitivity
+Optimized Configuration for ESP32-CAM Human Motion Detection
+Tuned specifically for detecting human movement with proper image saving
 """
 
-# Camera Settings - ESP32-CAM Stream
-CAMERA_INDEX = "http://192.168.1.5/sustain?stream=0"
+# Camera Settings - ESP32-CAM Stream  
+CAMERA_INDEX = "http://192.168.195.193/stream"
 CAMERA_WIDTH = 640
 CAMERA_HEIGHT = 480
 FPS = 30
 
-# Motion Detection Settings - OPTIMIZED FOR STABILITY
-MOTION_THRESHOLD = 50          # Increased from 35 - less sensitive to lighting changes
-MIN_CONTOUR_AREA = 2500        # Increased from 1500 - ignore small movements
+# Motion Detection Settings - OPTIMIZED FOR HUMAN DETECTION
+MOTION_THRESHOLD = 35          # Optimized for human movement (was 50)
+MIN_CONTOUR_AREA = 800         # Lowered to detect human body parts (was 2500)
 MAX_CONTOUR_AREA = 50000       # Keep large movements
 
-# Frame Processing - ENHANCED NOISE REDUCTION
-GAUSSIAN_BLUR_SIZE = 31        # Increased from 25 for better noise filtering
-MORPHOLOGY_KERNEL_SIZE = 9     # Increased from 7 for better cleanup
+# Frame Processing - HUMAN-OPTIMIZED
+GAUSSIAN_BLUR_SIZE = 21        # Reduced to preserve human details (was 31)
+MORPHOLOGY_KERNEL_SIZE = 5     # Reduced to keep human features (was 9)
 
-# Motion Persistence Settings - NEW FEATURES
-MOTION_PERSISTENCE_FRAMES = 3   # Motion must be detected in X consecutive frames
-BACKGROUND_UPDATE_RATE = 0.01   # How fast background adapts (lower = slower)
+# Motion Persistence Settings - RELAXED FOR HUMANS
+MOTION_PERSISTENCE_FRAMES = 2   # Reduced for variable human movement (was 3)
+BACKGROUND_UPDATE_RATE = 0.005  # Slower background adaptation (was 0.01)
+
+# Human Detection Enhancement
+MERGE_NEARBY_CONTOURS = True    # Merge close contours for better human detection
+CONTOUR_MERGE_DISTANCE = 100    # Distance threshold for merging contours
+MIN_HUMAN_AREA = 3000          # Minimum area considered as full human
+MAX_DETECTION_OBJECTS = 5       # Limit objects per frame to reduce noise
 
 # Alert Settings
-MOTION_ALERT_COOLDOWN = 4.0    # Increased from 3.0 to reduce alert spam
-SAVE_MOTION_FRAMES = True
+MOTION_ALERT_COOLDOWN = 3.0    # Time between alerts
+SAVE_MOTION_FRAMES = True      # Save detected motion frames
 MOTION_FRAMES_DIR = "motion_frames"
 
 # Display Settings
-SHOW_THRESHOLD_IMAGE = True    # Shows what the detector sees
-SHOW_CONTOURS = True           # Draw green boxes around motion
+SHOW_THRESHOLD_IMAGE = True    # Shows detection processing
+SHOW_CONTOURS = True           # Draw detection boxes
 WINDOW_SCALE = 1.0             # Display scale factor
 
 # Colors (BGR format)
@@ -38,6 +44,7 @@ MOTION_BOX_COLOR = (0, 255, 0)     # Green boxes around motion
 ALERT_TEXT_COLOR = (0, 0, 255)     # Red text for alerts
 INFO_TEXT_COLOR = (255, 255, 255)  # White text for info
 DETECTION_STATS_COLOR = (0, 255, 255)  # Yellow for detection stats
+HUMAN_BOX_COLOR = (0, 255, 255)    # Cyan for large human detections
 
 # Logging
 LOG_MOTION_EVENTS = True
@@ -48,10 +55,15 @@ BACKGROUND_SUBTRACTION_HISTORY = 500
 BACKGROUND_SUBTRACTION_THRESHOLD = 50
 MOTION_DETECTION_METHOD = "frame_diff"
 
-# Sensitivity Control - FINE TUNING
-AUTO_RESET_BACKGROUND = True    # Automatically reset background periodically
-RESET_BACKGROUND_INTERVAL = 300 # Reset background every 5 minutes (300 seconds)
-ADAPTIVE_THRESHOLD = True       # Adjust threshold based on lighting conditions
+# Sensitivity Control
+AUTO_RESET_BACKGROUND = True    # Automatically reset background
+RESET_BACKGROUND_INTERVAL = 300 # Reset every 5 minutes
+ADAPTIVE_THRESHOLD = True       # Adjust threshold based on lighting
+
+# Image Saving Enhancement
+SAVE_WITH_DETECTION_BOXES = True   # Save images with detection visualization
+ADD_TIMESTAMP_TO_SAVED_IMAGES = True
+SAVE_DETECTION_INFO_ON_IMAGE = True
 
 # Future Integration Settings (for drone communication)
 DRONE_COMMUNICATION = False
@@ -59,11 +71,11 @@ DRONE_IP = "192.168.4.1"
 DRONE_PORT = 8888
 
 # ESP32-CAM Specific Settings
-ESP32_CAM_IP = "192.168.1.5"
-ESP32_CAM_WEB_INTERFACE = "http://192.168.1.5"
-ESP32_CAM_STREAM_URL = "http://192.168.1.5/sustain?stream=0"
+ESP32_CAM_IP = "192.168.195.193"
+ESP32_CAM_WEB_INTERFACE = "http://192.168.195.193"
+ESP32_CAM_STREAM_URL = "http://192.168.195.193/sustain?stream=0"
 
-# Testing and Calibration Settings
-TEST_MODE = False              # Set to True for calibration mode
-SHOW_DEBUG_INFO = True         # Show detailed detection info
-SHOW_DETECTION_STATS = True    # Show detection statistics
+# Testing and Calibration
+TEST_MODE = False
+SHOW_DEBUG_INFO = True
+SHOW_DETECTION_STATS = True

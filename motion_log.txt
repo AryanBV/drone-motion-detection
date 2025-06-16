@@ -95,3 +95,66 @@ Statistics: 589 frames, 12 verified detections
 2025-06-15 21:03:39 - VERIFIED Motion: 1 objects, total area: 11721.0, threshold: 50, avg_diff: 6.4
 === Enhanced Motion Detection Ended at 2025-06-15 21:04:11.713833 ===
 Statistics: 847 frames, 15 verified detections
+
+=== Human-Optimized Motion Detection Started at 2025-06-15 21:18:49.162221 ===
+2025-06-15 21:18:50 - VERIFIED Motion: 3 objects (3 humans), total area: 281842.0, threshold: 35, avg_diff: 14.0
+=== Human-Optimized Motion Detection Ended at 2025-06-15 21:18:50.301721 ===
+Statistics: 3 frames, 1 detections, 1 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-15 21:19:05.383620 ===
+2025-06-15 21:19:06 - VERIFIED Motion: 0 objects (0 humans), total area: 0, threshold: 35, avg_diff: 1.4
+2025-06-15 21:19:09 - VERIFIED Motion: 1 objects (0 humans), total area: 1247.5, threshold: 35, avg_diff: 1.5
+2025-06-15 21:19:12 - VERIFIED Motion: 0 objects (0 humans), total area: 0, threshold: 35, avg_diff: 28.1
+2025-06-15 21:19:17 - VERIFIED Motion: 1 objects (1 humans), total area: 6007.5, threshold: 50, avg_diff: 7.2
+2025-06-15 21:19:20 - VERIFIED Motion: 1 objects (1 humans), total area: 62060.0, threshold: 35, avg_diff: 5.3
+2025-06-15 21:19:23 - VERIFIED Motion: 1 objects (1 humans), total area: 8695.5, threshold: 50, avg_diff: 6.6
+2025-06-15 21:19:27 - VERIFIED Motion: 1 objects (1 humans), total area: 8016.0, threshold: 50, avg_diff: 2.4
+2025-06-15 21:19:31 - VERIFIED Motion: 1 objects (0 humans), total area: 1125.0, threshold: 35, avg_diff: 1.5
+2025-06-15 21:19:34 - VERIFIED Motion: 1 objects (1 humans), total area: 3338.5, threshold: 50, avg_diff: 1.8
+2025-06-15 21:19:38 - VERIFIED Motion: 2 objects (1 humans), total area: 5672.0, threshold: 50, avg_diff: 6.0
+=== Human-Optimized Motion Detection Ended at 2025-06-15 21:19:38.910387 ===
+Statistics: 189 frames, 10 detections, 6 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:51:05.771150 ===
+2025-06-16 09:51:23 - VERIFIED Motion: 5 objects (5 humans), total area: 213865.0, threshold: 35, avg_diff: 42.8
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:51:23.696028 ===
+Statistics: 3 frames, 1 detections, 1 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:51:27.615136 ===
+2025-06-16 09:51:30 - VERIFIED Motion: 2 objects (2 humans), total area: 27930.0, threshold: 35, avg_diff: 5.6
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:51:30.300265 ===
+Statistics: 3 frames, 1 detections, 1 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:51:38.815698 ===
+2025-06-16 09:52:03 - VERIFIED Motion: 5 objects (5 humans), total area: 275389.0, threshold: 35, avg_diff: 20.2
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:52:03.022507 ===
+Statistics: 3 frames, 1 detections, 1 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:52:17.655963 ===
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:52:49.693766 ===
+Statistics: 0 frames, 0 detections, 0 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:52:54.690701 ===
+2025-06-16 09:52:55 - VERIFIED Motion: 1 objects (1 humans), total area: 12103.0, threshold: 35, avg_diff: 4.1
+2025-06-16 09:52:58 - VERIFIED Motion: 1 objects (0 humans), total area: 960.0, threshold: 35, avg_diff: 2.5
+2025-06-16 09:53:01 - VERIFIED Motion: 1 objects (0 humans), total area: 1222.0, threshold: 35, avg_diff: 4.3
+2025-06-16 09:53:04 - VERIFIED Motion: 5 objects (5 humans), total area: 274139.0, threshold: 35, avg_diff: 18.3
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:53:04.813054 ===
+Statistics: 65 frames, 4 detections, 2 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:53:11.666433 ===
+2025-06-16 09:53:12 - VERIFIED Motion: 5 objects (2 humans), total area: 57636.0, threshold: 35, avg_diff: 6.4
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:53:12.543087 ===
+Statistics: 4 frames, 1 detections, 1 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 09:57:26.973105 ===
+=== Human-Optimized Motion Detection Ended at 2025-06-16 09:57:32.815483 ===
+Statistics: 0 frames, 0 detections, 0 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 10:27:57.186392 ===
+=== Human-Optimized Motion Detection Ended at 2025-06-16 10:29:11.086676 ===
+Statistics: 0 frames, 0 detections, 0 humans
+
+=== Human-Optimized Motion Detection Started at 2025-06-16 10:29:14.310486 ===
+=== Human-Optimized Motion Detection Ended at 2025-06-16 10:30:28.197549 ===
+Statistics: 0 frames, 0 detections, 0 humans
